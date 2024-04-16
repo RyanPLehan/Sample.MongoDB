@@ -1,7 +1,7 @@
 # Sample.MongoDB
 ## Sample C# application to help learn the basics of MongoDB as the data repository
 
-## **Please Note: The C# Application is still a work in progress!  This message will be removed once it is completed.**
+## **Please Note: This sample application is still a work in progress!  This message will be removed once it is completed.**
 
 #### Prior to using this application, I highly recommend the following
 - [MongoDB University](https://learn.mongodb.com/) - General educational content.
@@ -136,8 +136,8 @@ The C# application was written using .Net Core 8.
      Infrastructure/Management/Airbnb/Handlers  
      Infrastructure/Search/Airbnb/Requests  
      Infrastructure/Search/Airbnb/Handlers  
-   - Models (POCO classes)directory breakdown structure as follows:  
-     Note: Each directory will house all the models needed for that database  
+   - Models (POCO classes) directory breakdown structure as follows:  
+     **Note:** Each directory will house all the models needed for that database  
      Models/Airbnb  
      Models/WeatherData
 
