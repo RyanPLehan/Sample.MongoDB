@@ -5,9 +5,9 @@ using MediatR;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Sample.MongoDB.Console.Samples;
-using Sample.MongoDB.Domain.Infrastructure.Informational;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests;
+using Sample.MongoDB.Domain.Informational;
+using Sample.MongoDB.Domain.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server.Requests;
 using Sample.MongoDB.Domain.Models.Informational;
 
 

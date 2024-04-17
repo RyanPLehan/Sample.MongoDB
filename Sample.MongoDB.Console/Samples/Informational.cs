@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests;
+using Sample.MongoDB.Domain.Informational.Server.Requests;
 using Sample.MongoDB.Domain.Models.Informational;
 using System;
 using System.Collections.Generic;

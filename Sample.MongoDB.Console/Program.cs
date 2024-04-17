@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server;
 using Sample.MongoDB.Domain.Models.Informational;
 using Sample.MongoDB.Infrastructure.Options;
 using Sample.MongoDB.Infrastructure.Registration;

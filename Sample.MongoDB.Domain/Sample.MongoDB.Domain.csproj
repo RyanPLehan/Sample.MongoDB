@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\Aggregation\" />
-    <Folder Include="Infrastructure\Management\" />
-    <Folder Include="Infrastructure\Search\" />
+    <Folder Include="Aggregation\" />
+    <Folder Include="Management\" />
+    <Folder Include="Search\" />
     <Folder Include="Models\Management\" />
     <Folder Include="Models\Search\" />
     <Folder Include="Models\Aggregation\" />

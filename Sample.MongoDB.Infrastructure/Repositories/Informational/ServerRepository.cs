@@ -10,7 +10,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver.Core.Clusters;
 using Sample.MongoDB.Infrastructure.Options;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server;
 
 namespace Sample.MongoDB.Infrastructure.Repositories.Informational
 {

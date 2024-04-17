@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Sample.MongoDB.Domain.Models.Informational;
 
-namespace Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests
+namespace Sample.MongoDB.Domain.Informational.Server.Requests
 {
     /// <summary>
     /// Request to get list of databases and their specific information

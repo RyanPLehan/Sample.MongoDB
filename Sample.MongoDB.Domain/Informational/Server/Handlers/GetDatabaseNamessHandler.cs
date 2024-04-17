@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MediatR;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests;
+using Sample.MongoDB.Domain.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server.Requests;
 
-namespace Sample.MongoDB.Domain.Infrastructure.Informational.Server.Handlers
+namespace Sample.MongoDB.Domain.Informational.Server.Handlers
 {
     /// <summary>
     /// Handler for requesting to get list of databases names only

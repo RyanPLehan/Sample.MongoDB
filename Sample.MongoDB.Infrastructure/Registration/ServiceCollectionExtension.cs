@@ -1,10 +1,9 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
-using Sample.MongoDB.Domain.Infrastructure;
-using IInformational = Sample.MongoDB.Domain.Infrastructure.Informational;
+using IInformational = Sample.MongoDB.Domain.Informational;
 using CInformational = Sample.MongoDB.Infrastructure.Repositories.Informational;
 using Sample.MongoDB.Infrastructure.Configue;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server;
 
 namespace Sample.MongoDB.Infrastructure.Registration
 {

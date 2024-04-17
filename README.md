@@ -129,13 +129,13 @@ The C# application was written using .Net Core 8.
 - Each sample database will have it's own directory as follows:
    - Name of the directory will **exclude** the prefix of *sample_*
    - Repository pattern directory breakdown structure as follows:  
-     Infrastructure/Management/Airbnb  
-     Infrastructure/Search/Airbnb  
+     Management/Airbnb  
+     Search/Airbnb  
    - Mediator pattern (Request/Handler) directory breakdown structure as follows:  
-     Infrastructure/Management/Airbnb/Requests  
-     Infrastructure/Management/Airbnb/Handlers  
-     Infrastructure/Search/Airbnb/Requests  
-     Infrastructure/Search/Airbnb/Handlers  
+     Management/Airbnb/Requests  
+     Management/Airbnb/Handlers  
+     Search/Airbnb/Requests  
+     Search/Airbnb/Handlers  
    - Models (POCO classes) directory breakdown structure as follows:  
      **Note:** Each directory will house all the models needed for that database  
      Models/Airbnb  

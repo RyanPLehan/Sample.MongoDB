@@ -5,10 +5,11 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests;
+using Sample.MongoDB.Domain.Informational.Server;
+using Sample.MongoDB.Domain.Informational.Server.Requests;
 using Sample.MongoDB.Domain.Models.Informational;
 
-namespace Sample.MongoDB.Domain.Infrastructure.Informational.Server.Handlers
+namespace Sample.MongoDB.Domain.Informational.Server.Handlers
 {
     /// <summary>
     /// Handler for requesting to get list of databases and relative information of each database

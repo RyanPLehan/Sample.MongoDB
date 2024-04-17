@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MediatR;
 
-namespace Sample.MongoDB.Domain.Infrastructure.Informational.Server.Requests
+namespace Sample.MongoDB.Domain.Informational.Server.Requests
 {
     /// <summary>
     /// Request to get list of database names only
