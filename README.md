@@ -128,9 +128,10 @@ The C# application was written using .Net Core 8.
 #### Directory structure breakdown:
 - Each sample database will have it's own directory as follows:
    - Name of the directory will **exclude** the prefix of *sample_*
-   - Repository pattern directory breakdown structure as follows:  
-     Management/Airbnb  
-     Search/Airbnb  
+   - Repository interfaces will be at the parent directory level as follows:  
+     Management/IAirbnbRepository  
+     Management/IServerRepository  
+     Search/IAirbnbRepository  
    - Mediator pattern (Request/Handler) directory breakdown structure as follows:  
      Management/Airbnb/Requests  
      Management/Airbnb/Handlers  

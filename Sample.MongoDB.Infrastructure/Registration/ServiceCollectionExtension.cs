@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using IInformational = Sample.MongoDB.Domain.Informational;
 using CInformational = Sample.MongoDB.Infrastructure.Repositories.Informational;
 using Sample.MongoDB.Infrastructure.Configue;
-using Sample.MongoDB.Domain.Informational.Server;
+using Sample.MongoDB.Domain.Informational;
 
 namespace Sample.MongoDB.Infrastructure.Registration
 {

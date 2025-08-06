@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MediatR;
-using Sample.MongoDB.Domain.Informational.Server;
 using Sample.MongoDB.Domain.Informational.Server.Requests;
 
 namespace Sample.MongoDB.Domain.Informational.Server.Handlers

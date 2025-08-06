@@ -5,7 +5,6 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using Sample.MongoDB.Domain.Informational.Server;
 using Sample.MongoDB.Domain.Informational.Server.Requests;
 using Sample.MongoDB.Domain.Models.Informational;
 
